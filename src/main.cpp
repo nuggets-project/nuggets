@@ -34,7 +34,7 @@ unsigned int nTransactionsUpdated = 0;
 map<uint256, CBlockIndex*> mapBlockIndex;
 
 uint256 hashGenesisBlock("0xb0905ab36adbe7c0894b4c4ff9349374052f93799c97760ab5fb207daee741ad");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 30); 
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); 
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 CBigNum bnBestChainWork = 0;
