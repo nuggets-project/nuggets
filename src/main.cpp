@@ -853,15 +853,15 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 			nSubsidy = 10045 * COIN;  //The VGB Protocol Random 250x Block Award
 			
 		if(nHeight == 1)   
-			nSubsidy = 22000000 * COIN; //5% Public Wallet Premine
+			nSubsidy = 1100000 * COIN; //.5% Public Wallet Premine
 			
 		if(nHeight == 2)   
-			nSubsidy = 4400000 * COIN; //1% Coin Owner Premine
+			nSubsidy = 1100000 * COIN; //.5% Coin Owner Premine
 			
-		else if(nHeight < 120)
+		else if(nHeight < 10)
 			nSubsidy = 0 * COIN;	//No  Coins awarded for the first 120 blocks (fair launch)
 		
-		else if(nHeight > 121)
+		else if(nHeight > 11)
 			nSubsidy = 49 * COIN;	//Standard 49 Coin Reward	
 			
 		if(nHeight > 14726880) // no block reward after 7 years
