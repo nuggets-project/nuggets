@@ -858,10 +858,10 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 		if(nHeight == 2)   
 			nSubsidy = 1100000 * COIN; //.5% Coin Owner Premine
 			
-		else if(nHeight < 10)
-			nSubsidy = 0 * COIN;	//No  Coins awarded for the first 120 blocks (fair launch)
+		else if(nHeight < 250)
+			nSubsidy = 0 * COIN;	//No  Coins awarded for the first 250 blocks (fair launch)
 		
-		else if(nHeight > 11)
+		else if(nHeight > 251)
 			nSubsidy = 49 * COIN;	//Standard 49 Coin Reward	
 			
 		if(nHeight > 14726880) // no block reward after 7 years
