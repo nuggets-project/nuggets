@@ -6,6 +6,10 @@ This project does not belong anymore to fuckers and computer illiterates. Post y
 
 I do not have Windows so that would be great if a person builds a binary each time a new version comes.
 
+I am waiting for Vlad2Vlad to pay me here: 1GeP4aCmHeFcEiohuXsQSeafdwTiyNoLDt. Otherwise he will lose any involvment he had with this currency.
+
+Donations: 1Nw7oXGui4Y551v3wAbvT3vCzDY2NPuYuB
+
 ***
 
 70 second blocks, 49 coins per block, .01% (12 blocks per day)
