@@ -1,12 +1,16 @@
 Nuggets (NUG)
 ---
-ALL YOUR NUGGETS ARE BELONG TO US
+I here present you my new innovative coin: Nuggets.
 
-This project does not belong anymore to fuckers and computer illiterates. **Post your suggestions** in the Nuggets thread. I will not answer but I will take them into account.
+I plan to make it the most used altcoin ever. I know a hacked pre-release version has been spread on a forum. Don't use it as it may harm your system.
+
+The final client will be soon released. I will put a link here to compiled clients.
+
+Until then, **post your suggestions** in the Nuggets thread. I will not answer but I will take them into account.
 
 I do not have Windows so that would be great if a person builds a binary each time a new version comes.
 
-The old version will be replaced soon. The new version will have 0 premine and a working block reward algorithm.
+Important: 0 premine.
 
 Donations: 1Nw7oXGui4Y551v3wAbvT3vCzDY2NPuYuB
 
@@ -19,3 +23,5 @@ Chance for 205x super block Award
 RPCPORT=5587
 
 P2PPORT=5588
+
+
