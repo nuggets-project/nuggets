@@ -846,16 +846,9 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
         std::string cseed_str = prevHash.ToString().substr(8,7);
 	const char* cseed = cseed_str.c_str();
 	long seed = hex2long(cseed);
-
 	int rand = generateMTRandom(seed, 100000);
 
-	if(nHeight == 1)   
-		nSubsidy = 1100000 * COIN; //.5% Public Wallet Premine
-			
-	else if(nHeight == 2)   
-		nSubsidy = 1100000 * COIN; //.5% Coin Owner Premine
-			
-	else if(nHeight > 250 && nHeight <= 14726880){
+	if(nHeight > 250 && nHeight <= 14726880){
 		nSubsidy = 49 * COIN;	//Standard 49 Coin Reward
 		if(rand > 50000 && rand < 50011)		
 			nSubsidy = 10045 * COIN;  //The super block Protocol Random 250x Block Award
