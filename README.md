@@ -6,11 +6,7 @@ This project does not belong anymore to fuckers and computer illiterates. **Post
 
 I do not have Windows so that would be great if a person builds a binary each time a new version comes.
 
-As Vlad2Vlad doesn't seem very collaborative I'll totally change the algorithm unless:
-* Vlad2Vlad pays me 25BTC here: 1GeP4aCmHeFcEiohuXsQSeafdwTiyNoLDt before end of July 2013.
-* Or majority of people in the thread ask me to return him the ownership.
-
-Otherwise he will lose any involvment he had with this currency and I will make his premine unspendable or make a new blockchain that will supersede the current flawed one.
+The old version will be replaced soon. The new version will have 0 premine and a working block reward algorithm.
 
 Donations: 1Nw7oXGui4Y551v3wAbvT3vCzDY2NPuYuB
 
